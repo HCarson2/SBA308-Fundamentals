@@ -1,4 +1,10 @@
-
+function getLearnerData(courseInfo, assignmentGroups, learnerSubmissions) {
+    return {
+        courseInfo,
+        assignmentGroups,
+        learnerSubmissions,
+    };
+}
 //Course info data  type
 const courseInfo = { id: 1, name: "SBA JavaScript Fundamentals" };
 
